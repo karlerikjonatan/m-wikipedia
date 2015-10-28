@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "wiki-mobile",
+	"version": "1.0.0",
+	"description": "Browse Wikipedia's mobile version by default.",
+	"homepage_url": "https://github.com/karlerikjonatan/wiki-mobile",
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.wikipedia.org/*", 
+				"*://www.mediawiki.org/*", 
+				"*://meta.wikimedia.org/*",
+				"*://commons.wikimedia.org/*"
+			],
+			"exclude_matches": [
+				"*://*.m.wikipedia.org/*"
+			],
+			"js": ["wiki-mobile.js"],
+			"run_at": "document_start"	
+		}
+	]
+}
