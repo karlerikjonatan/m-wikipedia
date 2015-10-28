@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "wiki-mobile",
 	"version": "1.0.0",
-	"description": "Browse Wikipedia's mobile version by default.",
+	"description": "Browse Wikipedia's mobile version.",
 	"homepage_url": "https://github.com/karlerikjonatan/wiki-mobile",
 	"content_scripts": [
 		{
