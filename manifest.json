@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "m-wikipedia",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Default to mobile version of Wikipedia",
 	"homepage_url": "https://github.com/karlerikjonatan/m-wikipedia",
 	"content_scripts": [
 		{
