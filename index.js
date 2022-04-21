@@ -1,9 +1,7 @@
 "use strict";
 
-const hash = window.location.hash;
-const pathname = window.location.pathname;
-const protocol = window.location.protocol;
-
+const { hash, pathname, protocol } = window.location;
 const lang = document.querySelector("html").lang;
+const url = `${protocol}//${lang}.m.wikipedia.org${pathname}${hash}`;
 
-window.location.replace(`${protocol}//${lang}.m.wikipedia.org${pathname}${hash}`);
+window.location.replace(url);
